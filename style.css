@@ -1,0 +1,97 @@
+body {
+    background-color: rgba(253, 109, 57, 0.66);
+}
+
+table {
+    max-width: 100%;
+    margin: auto;
+}
+
+table td {
+    width: 100px;
+    height: 100px;
+    
+}
+
+button {
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+#btn-red {
+    background-color: red;
+    border: 0;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    transition-duration: .5s;
+}
+
+#btn-blue {
+    background-color: blue;
+    border: 0;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    transition-duration: .5s;
+}
+
+#btn-yellow {
+    background-color: yellow;
+    border: 0;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    transition-duration: .5s;
+}
+
+#btn-orange {
+    background-color: orange;
+    border: 0;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    transition-duration: .5s;
+}
+
+#btn-green {
+    background-color: green;
+    border: 0;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    transition-duration: .5s;
+}
+
+/* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.green {
+    background-color: green;
+}
