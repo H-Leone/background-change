@@ -17,6 +17,7 @@ button {
     width: 90%;
     margin: 0 auto;
     padding: 40px;
+    box-shadow: 1px 2px 8px black;
 }
 
 #btn-red {
@@ -74,7 +75,7 @@ button {
     transition-duration: .5s;
 }
 
-/* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
+/* Color class */
 
 .red {
     background-color: red;
@@ -94,4 +95,61 @@ button {
 
 .green {
     background-color: green;
+}
+
+/* Bottom button */
+
+#bottom-button-wrapper {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bottom-button {
+    height: 85%;
+    width: 5.75%;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+
+#bottom-button:hover {
+    background-color: rgb(59, 59, 59);
+    transition-duration: .5s;
+}
+
+.rainbow {
+    animation: rainbow 700ms linear infinite;
+}
+
+@keyframes rainbow {
+    0% {
+        background-color: red;
+        transition-duration: .5s;
+    }
+    20% {
+        background-color: blue;
+    }
+    40% {
+        background-color: rgba(253, 109, 57, 0.66);
+    }
+    60% {
+        background-color: orange;
+    }
+    80% {
+        background-color: green;
+    }
+    100% {
+        background-color: yellow;
+    }
 }

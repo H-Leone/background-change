@@ -49,3 +49,13 @@ function changeColorGreen(){
         corpo.classList.add('green');
     }
 }
+
+function changeToRainbow() {
+    if (corpo.classList.contains('rainbow')){
+        corpo.classList.remove('rainbow')
+    } else {
+        corpo.style.transitionDuration='.5s'
+        corpo.className='';
+        corpo.classList.add('rainbow')
+    }
+}
