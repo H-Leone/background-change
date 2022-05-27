@@ -1,8 +1,3 @@
-var vermelho = document.getElementById('btn-red')
-var azul = document.getElementById('btn-blue')
-var amarelo = document.getElementById('btn-yellow')
-var laranja = document.getElementById('btn-orange')
-var verde = document.getElementById('btn-green')
 var corpo = document.getElementById('body')
 
 function changeColorRed(){
